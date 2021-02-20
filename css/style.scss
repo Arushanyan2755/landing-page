@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+
+
+$cyan : #242323;
+$app : #313131;
+$ser: #939393;
+
+
+
+
+
+header{
+	width: 100%;
+	background: $cyan;
+	padding: 30px 0;
+	}
+    header>nav>ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+        ul>li{
+        padding:0 30px;
+    }
+    .a1{
+        color: $ser;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .a2{
+        font-size: 25px;
+        color: #fdfdfd;
+        letter-spacing: 3px;
+    }
+    
+    .a3:hover{
+    color:white; 
+    transition: 1s;
+    }
+
+    .menu{
+        position: relative;
+        
+    }
+
+    .menu:hover{
+        display: block;
+        }
+        .mas1>div{
+            width: 100%;
+            height: 100%;
+             background: #ffe9e3;
+            }
+            .mas1{
+            width: 100%;
+            background: #f5f3f2;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(100px,400px));
+            justify-content: center;
+            text-align: center;
+            }
+            
+        
+            .mas2>p{
+        
+            font-family: sans-serif;
+            font-size: 42px;
+            color: $app;
+            line-height: 1.4em;
+            padding-top: 100px;
+            }
+            .p1{
+
+                font-family: 23px;
+                font-family: sans-serif;
+                line-height: 4em;
+            
+                }
+            
+                .gic{
+            
+                width: 70px;
+                height: 2px;
+                border: 1px solid black;
+                background: black;
+                margin-left: 160px;
+                }
+                .p2{
+            
+                font-size: 21px;
+                font-family:sans-serif;
+                }
+                .div10{
+                width: 70px;
+                height: 2px;
+                border: 1px solid white;
+                background: white;
+                margin-left: 160px;
+                }
+                
+                .mas3{
+                width: 100%;
+                height: 400px;
+                background: #a3c7bd;
+                text-align: center;
+                padding-top: 100px;
+                }
+
+                #p4{
+                    color:white;
+                    font-size: 42px;
+                    font-family: sans-serif;
+                    line-height: 1.4em;
+                    }
+
+                    #p5{
+                    font-family: 23px;
+                    font-family: sans-serif;
+                    line-height: 4em;
+                    color: white;
+                    }
+
+                    #p6{
+                    font-size: 21px;
+                    font-family:sans-serif;
+                    color: white;
+                    line-height:3em;
+                    }
+
+                    .glxavor{
+                    width: 100%;
+                    height: 100%;
+                    display:flex; 
+                    justify-content: center;
+                    grid-template-columns: repeat(auto-fit,minmax(100px,400px));
+                    display: grid;
+                    background:#d4e4e0;
+                    }
+
+                    .mas6{
+                    width: 100%;
+                    height: 100%;
+                    }
+
+                    .p10{
+                    width: 315px;
+                    height: 95px;
+                    background: rgb(224, 224,224);
+                    color:rgb(49, 49,49);
+                    font-size: 19px;
+                    font-family: sans-serif;
+                    text-align: center;
+                    padding-top: 20px;
+                    line-height: 1.8em;
+                    position: absolute;
+                    opacity: 1;
+                    }
+                    .div21:hover img{
+                    transform: scale(1.08);
+                    transition: 1s;
+                    cursor: pointer;
+                
+                    }
+                    .div21{
+                    width: 315px;
+                    height: 480px; 
+                    margin-top: 50px;
+                    overflow: hidden;
+                    }
+                    .div21{
+                        img{
+                            width: 315px;
+                            height: 480px;
+                        }
+                    }
+                    .pp{
+                
+                    text-align: center;
+                    margin-top: 60px;
+                    font-size: 32px;
+                    font-family: sans-serif;
+                    color: $app;
+                    }
+                
+                    .gg{
+                
+                    grid-template-columns: repeat(auto-fit,minmax(100px,400px));
+                    display: grid;
+                    justify-content: center;
+                
+                    }
+                    .ppp{
+                    position: absolute;
+                    font-size: 19px;
+                    font-family: sans-serif;
+                    padding-top: 20px;
+                    padding-left: 100px;
+                    padding-top: 50px;
+                    opacity: 0;
+                    width: 215px;
+                    height: 50px;
+                    }
+                    .p10:hover{
+                    opacity: 0;
+                    cursor: pointer;
+                    transition: 0.25s;
+                    }
+                    .ppp:hover{
+                    opacity: 1;
+                    background: #ee5951;
+                    cursor: pointer;
+                    transition: 0.25s;
+                    }
+                    .p20{
+                
+                    position: absolute;
+                    margin-left: 340px;
+                    margin-top: 200px;
+                    text-align:center;
+                    font-size: 32px;
+                    font-family:spinnaker sans-serif;
+                    color:$app;
+                    line-height: 1.2em;
+                font-size: 26px;
+                font-family:raleway sans-serif;
+                color:#313131;
+
+                    }
+                    .in{
+                        width: 321px;
+                        height: 37px;
+                        margin-left: 340px;
+                        margin-top:300px;
+                        padding-left:21px;
+                        background: #fdfdfd;
+                        border: 1px solid;
+                        font-size: 14px;
+                        line-height: 1.8em;
+                        margin-left: 480px;
+                        }
+                        .in1{
+
+                            width: 321px;
+                            height: 37px;
+                            font-size: 21px;
+                            font-family:  sans-serif ;
+                            color:white;
+                            background: #A3C7BD;
+                            border: 1px solid rgba(163, 199, 189, 1) ;
+                            margin-left:480px;
+                            }
+                            .in1:hover{
+                            color:#dbe0df;
+                            transition: 1s;
+                            }
+                            .nkar{
+                        
+                            width: 100%;
+                            display: grid;
+                            justify-content: center;
+                            grid-template-columns: repeat(auto-fit,minmax(100px,400px));
+                            margin-top:80px;
+                            background: $cyan;
+                            padding-top: 26px;
+                            height: 490px;
+                            }
+                            .p50{
+                            color:white ;
+                            position: relative;
+                            font-size: 23px;
+                            font-family: raleway sans-serif;
+                            text-align: center;
+                            padding-top: 160px;
+                            padding-right: 50px;
+                            }
+                            .p51{
+                            color:white ;
+                            position: relative;
+                            font-size: 23px;
+                            font-family: raleway sans-serif;
+                            text-align: center;
+                            padding-top: 160px;
+                            padding-right: 50px;
+                            }
+                            .glxavor60{
+                            background: #e4e4e4;
+                            width: 100%;
+                            display: grid;
+                            grid-template-columns: repeat(auto-fit,minmax(100px,400px));
+                            text-decoration: none;
+                            }
+                            .glxavor60>div>ul{
+                            list-style: none;
+                            color: #a3a3a3;
+                            padding-top: 28px;
+                            font-size: 14px;
+                            font-family: sans-serif;
+                            line-height: 1.4em;
+                            }
+                            .href{
+                            color: $ser;
+                            text-decoration: none;
+                            line-height: 1.4em;
+                            font-size: 14px;
+                            font-family: sans-serif;
+                            }
+                            .glxavor61>p{
+                            color:$ser;
+                            margin-left: 28px;
+                            font-size: 17px;
+                            font-family: sans-serif;
+                            }
+                            .glxavor60>div{
+                        
+                            color:$ser; 
+                            margin-top:60px;
+                            position: relative;
+                            border-left: 1px solid $ser;
+                            }
+                            .glxavor60>.pp22{
+                            color:$ser;
+                            font-size: 25px;
+                            font-family:raleway sans-serif;
+                            letter-spacing: 0.1em;
+                            padding-left: 40px;
+                            padding-top: 60px;
+                            }
+                            .pp223{
+                                margin-left: 28px;
+                                font-size: 17px;
+                                font-family: sans-serif;
+                                }
+                                .bbb>ul>li{
+                                 display:flex;
+                                justify-content: center;
+                                align-items: center;
+                                list-style: none;
+                                display: flex;
+                                border-left: 1px solid $ser;
+                            
+                                }
+                             
+                           
+                              .sss{
+                                color: white;
+                                text-align: center;
+                                text-decoration: none;
+                                padding-top: 20px;
+                                justify-content: center;
+                                }  
+                            
+                       
